@@ -1,0 +1,15 @@
+Problem 1: Setting up schema -- relationships 
+
+Problem 2: Setting up nextStep for confirming email. Doc says nextStep property would return three different states: CONFIRM_SIGN_UP, DONE, and COMPLETE_AUTO_SIGN_IN. However, it's actually an object and the valuse aforementioned is within nextStep.signUpStep.
+
+Problem 3: Creating a new User from a lambda function
+Problem 4: Subscribe to Message event based on userId
+Problem 5: Subscribe to ConnectionRequest Event based on userId
+      If connection has been established, a new Room and Connections gets created. Then, ConnectionRequest gets removed.
+      Otherwise, ConnectionRequest gets removed.
+Problem 6: Show friendsList(online?) feed.
+Problem 7: Show users based on filter. Default tbd.
+
+
+Problem 8: Can't seem to use owner as an auth rule. It returns UNAUTHORIZED.
+Problem 9: 
